@@ -1,0 +1,2 @@
+# Compatibility entry point for Part B only. Part A installs independently.
+-r LLM_Complaint_Triage/requirements.txt

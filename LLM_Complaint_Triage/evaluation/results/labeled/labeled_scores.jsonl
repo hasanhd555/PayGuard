@@ -1,0 +1,20 @@
+{"complaint_id": "16621847", "checks": {"pipeline_success": true, "category_correct": true, "urgency_correct": false, "requires_human_correct": true, "joint_correct": false, "grounded": true}}
+{"complaint_id": "15817895", "checks": {"pipeline_success": true, "category_correct": true, "urgency_correct": true, "requires_human_correct": true, "joint_correct": true, "grounded": true}}
+{"complaint_id": "15664282", "checks": {"pipeline_success": true, "category_correct": true, "urgency_correct": false, "requires_human_correct": true, "joint_correct": false, "grounded": true}}
+{"complaint_id": "16811317", "checks": {"pipeline_success": true, "category_correct": true, "urgency_correct": false, "requires_human_correct": true, "joint_correct": false, "grounded": true}}
+{"complaint_id": "16024989", "checks": {"pipeline_success": true, "category_correct": true, "urgency_correct": true, "requires_human_correct": true, "joint_correct": true, "grounded": true}}
+{"complaint_id": "16001317", "checks": {"pipeline_success": true, "category_correct": true, "urgency_correct": true, "requires_human_correct": true, "joint_correct": true, "grounded": true}}
+{"complaint_id": "15985126", "checks": {"pipeline_success": true, "category_correct": true, "urgency_correct": true, "requires_human_correct": true, "joint_correct": true, "grounded": true}}
+{"complaint_id": "15836815", "checks": {"pipeline_success": true, "category_correct": true, "urgency_correct": true, "requires_human_correct": true, "joint_correct": true, "grounded": false}}
+{"complaint_id": "16812423", "checks": {"pipeline_success": true, "category_correct": true, "urgency_correct": true, "requires_human_correct": true, "joint_correct": true, "grounded": true}}
+{"complaint_id": "15812384", "checks": {"pipeline_success": true, "category_correct": true, "urgency_correct": true, "requires_human_correct": true, "joint_correct": true, "grounded": false}}
+{"complaint_id": "16726589", "checks": {"pipeline_success": true, "category_correct": true, "urgency_correct": true, "requires_human_correct": true, "joint_correct": true, "grounded": false}}
+{"complaint_id": "16458951", "checks": {"pipeline_success": true, "category_correct": true, "urgency_correct": true, "requires_human_correct": true, "joint_correct": true, "grounded": true}}
+{"complaint_id": "15799310", "checks": {"pipeline_success": true, "category_correct": true, "urgency_correct": true, "requires_human_correct": true, "joint_correct": true, "grounded": false}}
+{"complaint_id": "16531065", "checks": {"pipeline_success": true, "category_correct": true, "urgency_correct": true, "requires_human_correct": true, "joint_correct": true}}
+{"complaint_id": "16252002", "checks": {"pipeline_success": true, "category_correct": true, "urgency_correct": true, "requires_human_correct": true, "joint_correct": true, "grounded": false}}
+{"complaint_id": "15697691", "checks": {"pipeline_success": true, "category_correct": true, "urgency_correct": true, "requires_human_correct": true, "joint_correct": true, "grounded": true}}
+{"complaint_id": "15699145", "checks": {"pipeline_success": true, "category_correct": true, "urgency_correct": true, "requires_human_correct": true, "joint_correct": true, "grounded": false}}
+{"complaint_id": "15791607", "checks": {"pipeline_success": true, "category_correct": true, "urgency_correct": true, "requires_human_correct": true, "joint_correct": true, "grounded": false}}
+{"complaint_id": "15972278", "checks": {"pipeline_success": true, "category_correct": true, "urgency_correct": true, "requires_human_correct": true, "joint_correct": true, "grounded": true}}
+{"complaint_id": "16004084", "checks": {"pipeline_success": true, "category_correct": true, "urgency_correct": false, "requires_human_correct": true, "joint_correct": false, "grounded": true}}

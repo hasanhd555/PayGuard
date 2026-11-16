@@ -1,0 +1,246 @@
+{
+  "created_at": "2026-11-15T15:53:04.185013+00:00",
+  "suites": {
+    "labeled": {
+      "cases": 20,
+      "pending_human_labels": 0,
+      "accuracy": {
+        "category": {
+          "correct": 20,
+          "n": 20,
+          "accuracy": 1.0
+        },
+        "urgency": {
+          "correct": 16,
+          "n": 20,
+          "accuracy": 0.8
+        },
+        "requires_human": {
+          "correct": 20,
+          "n": 20,
+          "accuracy": 1.0
+        },
+        "joint": {
+          "correct": 16,
+          "n": 20,
+          "accuracy": 0.8
+        }
+      },
+      "confusion_matrices": {
+        "category": {
+          "OTHER_OR_UNCLEAR": {
+            "OTHER_OR_UNCLEAR": 19
+          },
+          "FEES_AND_BILLING": {
+            "FEES_AND_BILLING": 1
+          }
+        },
+        "urgency": {
+          "low": {
+            "medium": 1,
+            "low": 1
+          },
+          "medium": {
+            "medium": 15,
+            "low": 3
+          }
+        },
+        "requires_human": {
+          "True": {
+            "True": 19
+          },
+          "False": {
+            "False": 1
+          }
+        }
+      },
+      "per_category": {
+        "FRAUD_AND_SECURITY": {
+          "support": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "TRANSACTION_DISPUTES": {
+          "support": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "REFUNDS_AND_TRANSFERS": {
+          "support": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "ACCOUNT_ACCESS": {
+          "support": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "FEES_AND_BILLING": {
+          "support": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "SERVICE_AND_SUPPORT": {
+          "support": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "OTHER_OR_UNCLEAR": {
+          "support": 19,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "category_macro_f1_supported_classes": 1.0,
+      "human_review": {
+        "true_positive": 19,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "injection": {
+        "attacks": 0,
+        "benign_controls": 0,
+        "attacks_decided": 0,
+        "benign_decided": 0,
+        "decision_coverage": null,
+        "detection_recall": null,
+        "false_block_rate": null,
+        "detection_recall_decided_cases": null,
+        "false_block_rate_decided_cases": null,
+        "attack_reached_triage": 0,
+        "attack_without_human_review": 0,
+        "blocked_reached_triage": 0
+      },
+      "grounding": {
+        "judged": 19,
+        "ungrounded": 7,
+        "model_judged_ungrounded_rate": 0.3684210526315789,
+        "summary_ungrounded_rate": 0.05263157894736842,
+        "confidence_ungrounded_rate": 0.3684210526315789,
+        "judge_failures": 1,
+        "not_judged": 1
+      },
+      "statuses": {
+        "success": 20
+      },
+      "fallback_rate": 0.0,
+      "stages": {
+        "screen": {
+          "calls": 20,
+          "attempts": 20,
+          "correction_retries": 0,
+          "transport_retries": 0,
+          "latency_mean_seconds": 0.7901828,
+          "latency_p95_seconds": 1.22973165,
+          "input_tokens": 10955,
+          "output_tokens_including_thinking": 0,
+          "thinking_tokens": 0,
+          "usage_incomplete_calls": 0,
+          "estimated_cost_usd": 0.0010955
+        },
+        "triage": {
+          "calls": 20,
+          "attempts": 44,
+          "correction_retries": 0,
+          "transport_retries": 24,
+          "latency_mean_seconds": 16.4785871,
+          "latency_p95_seconds": 25.865647300000003,
+          "input_tokens": 38101,
+          "output_tokens_including_thinking": 9643,
+          "thinking_tokens": 7658,
+          "usage_incomplete_calls": 18,
+          "estimated_cost_usd": null
+        },
+        "judge": {
+          "calls": 20,
+          "attempts": 57,
+          "correction_retries": 11,
+          "transport_retries": 26,
+          "latency_mean_seconds": 13.88160445,
+          "latency_p95_seconds": 32.3066428,
+          "input_tokens": 27593,
+          "output_tokens_including_thinking": 34428,
+          "thinking_tokens": 29396,
+          "usage_incomplete_calls": 14,
+          "estimated_cost_usd": null
+        }
+      },
+      "pipeline": {
+        "calls": 40,
+        "attempts": 64,
+        "correction_retries": 0,
+        "transport_retries": 24,
+        "latency_mean_seconds": 8.63438495,
+        "latency_p95_seconds": 25.674426899999997,
+        "input_tokens": 49056,
+        "output_tokens_including_thinking": 9643,
+        "thinking_tokens": 7658,
+        "usage_incomplete_calls": 18,
+        "estimated_cost_usd": null
+      },
+      "latency_mean_seconds": 17.27525215,
+      "latency_p95_seconds": 27.08056505,
+      "estimated_cost_per_complaint_usd": null,
+      "estimated_cost_50000_complaints_usd": null,
+      "evaluation_only": {
+        "calls": 20,
+        "attempts": 57,
+        "correction_retries": 11,
+        "transport_retries": 26,
+        "latency_mean_seconds": 13.88160445,
+        "latency_p95_seconds": 32.3066428,
+        "input_tokens": 27593,
+        "output_tokens_including_thinking": 34428,
+        "thinking_tokens": 29396,
+        "usage_incomplete_calls": 14,
+        "estimated_cost_usd": null
+      }
+    }
+  },
+  "prices": {
+    "gemini-decision-1": {
+      "as_of": "2026-11-15",
+      "source": "https://aistudio.google.com/docs/decisions-api",
+      "input_per_million": 0.1,
+      "output_per_million": 0.0,
+      "cached_input_per_million": 0.1
+    },
+    "openai/gpt-oss-120b": {
+      "as_of": "2026-11-15",
+      "source": "https://console.groq.com/docs/models",
+      "input_per_million": 0.15,
+      "output_per_million": 0.6,
+      "cached_input_per_million": 0.15
+    },
+    "gemini-3.5-flash": {
+      "as_of": "2026-11-15",
+      "source": "https://ai.google.dev/gemini-api/docs/pricing?authuser=6#gemini-3.5-flash",
+      "input_per_million": 1.5,
+      "output_per_million": 9.0,
+      "cached_input_per_million": 0.15
+    },
+    "gemini-3.8-flash": {
+      "as_of": "2026-11-15",
+      "valid_through": "2026-12-31",
+      "source": "https://ai.google.dev/gemini-api/docs/pricing?gclsrc=aw.ds#gemini-3.8-flash",
+      "input_per_million": 0.75,
+      "output_per_million": 3.75,
+      "cached_input_per_million": 0.075
+    }
+  },
+  "saved_predictions": false,
+  "notes": [
+    "Suites overlap; do not add their costs or pool their quality scores.",
+    "Null scores mean no eligible labels/verdicts; null cost means unavailable pricing/usage.",
+    "Grounding is model-judged, not human-verified. Failures and fallbacks are reported separately."
+  ]
+}

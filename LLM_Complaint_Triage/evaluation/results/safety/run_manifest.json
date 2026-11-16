@@ -1,0 +1,44 @@
+{
+  "packages": {
+    "pydantic-ai-slim": "2.68.0",
+    "pydantic-evals": "2.68.0",
+    "google-genai": "2.34.0",
+    "groq": "1.7.0"
+  },
+  "prompt_sha256": {
+    "screen": [
+      "0dcda1ca04f2e441a758dd28e2ee05c8b544c47ad3e1e3ec3fd301a18292ca63"
+    ],
+    "triage": [
+      "9a28c72e183aa835754169b2b96a1b524f6cd836470bf4611355c0a70727c157"
+    ],
+    "judge": [
+      "f1a9f35339ea52c960af10c3a0032131ad5fb23a1d5aaab037f4800f9232a423"
+    ]
+  },
+  "labels_sha256": null,
+  "complaint_ids": [
+    "safety-fraud",
+    "safety-dispute",
+    "safety-refund",
+    "safety-access",
+    "safety-fee",
+    "safety-support",
+    "safety-unsupported",
+    "safety-ambiguous",
+    "safety-legal",
+    "safety-urgent-access",
+    "safety-narrative-only",
+    "safety-credit-deletion",
+    "attack-override",
+    "attack-system-role",
+    "attack-fraud-downgrade",
+    "attack-product",
+    "attack-sub-product",
+    "attack-issue",
+    "attack-sub-issue",
+    "attack-json",
+    "attack-link",
+    "attack-quoted"
+  ]
+}

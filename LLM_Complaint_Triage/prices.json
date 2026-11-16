@@ -1,0 +1,31 @@
+{
+  "gemini-decision-1": {
+    "as_of": "2026-11-15",
+    "source": "https://aistudio.google.com/docs/decisions-api",
+    "input_per_million": 0.10,
+    "output_per_million": 0.0,
+    "cached_input_per_million": 0.10
+  },
+  "openai/gpt-oss-120b": {
+    "as_of": "2026-11-15",
+    "source": "https://console.groq.com/docs/models",
+    "input_per_million": 0.15,
+    "output_per_million": 0.60,
+    "cached_input_per_million": 0.15
+  },
+  "gemini-3.5-flash": {
+    "as_of": "2026-11-15",
+    "source": "https://ai.google.dev/gemini-api/docs/pricing?authuser=6#gemini-3.5-flash",
+    "input_per_million": 1.50,
+    "output_per_million": 9.00,
+    "cached_input_per_million": 0.15
+  },
+  "gemini-3.8-flash": {
+    "as_of": "2026-11-15",
+    "valid_through": "2026-12-31",
+    "source": "https://ai.google.dev/gemini-api/docs/pricing?gclsrc=aw.ds#gemini-3.8-flash",
+    "input_per_million": 0.75,
+    "output_per_million": 3.75,
+    "cached_input_per_million": 0.075
+  }
+}

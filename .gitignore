@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# PayGuard local configuration and generated model outputs
+.env.*
+!.env.example
+LLM_Complaint_Triage/runs/
+# Full upstream export stays local; retain the small reproducible complaint slice.
+LLM_Complaint_Triage/data/CCDB_Export_13_September_2025_through_October_2025.csv
+.logfire/
+Fraud_Detection_Prototype/data/*.csv
+Fraud_Detection_Prototype/data/*.download
+Fraud_Detection_Prototype/data/*.source.json
+Fraud_Detection_Prototype/runs/

@@ -1,0 +1,62 @@
+{
+  "training_manifest_sha256": "83cac3dfe50dd782e19e44db392608413f3c8459b445ebd2b33024230a0188ab",
+  "selected_model": "random_forest",
+  "test": {
+    "logistic_regression": {
+      "average_precision": 0.7466198192371749,
+      "roc_auc": 0.9818505158179072,
+      "threshold": 0.9996190418721295,
+      "tn": 56651,
+      "fp": 21,
+      "fn": 19,
+      "tp": 55,
+      "precision": 0.7236842105263158,
+      "recall": 0.7432432432432432,
+      "false_positive_rate": 0.00037055335968379444,
+      "alerts": 76,
+      "alert_rate": 0.001339301448560251,
+      "modeled_cost": 2005.0,
+      "cost_per_1000": 35.33288689951715
+    },
+    "random_forest": {
+      "average_precision": 0.8062293215376746,
+      "roc_auc": 0.9346415647366736,
+      "threshold": 0.32450477755562596,
+      "tn": 56664,
+      "fp": 8,
+      "fn": 18,
+      "tp": 56,
+      "precision": 0.875,
+      "recall": 0.7567567567567568,
+      "false_positive_rate": 0.0001411631846414455,
+      "alerts": 64,
+      "alert_rate": 0.0011278327987875798,
+      "modeled_cost": 1840.0,
+      "cost_per_1000": 32.42519296514292
+    },
+    "always_legitimate": {
+      "average_precision": 0.0013040566735981391,
+      "roc_auc": 0.5,
+      "threshold": 1.0,
+      "tn": 56672,
+      "fp": 0,
+      "fn": 74,
+      "tp": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "false_positive_rate": 0.0,
+      "alerts": 0,
+      "alert_rate": 0.0,
+      "modeled_cost": 7400.0,
+      "cost_per_1000": 130.40566735981392
+    }
+  },
+  "latency": {
+    "p50_ms": 18.42069999929663,
+    "p95_ms": 32.10389499990924,
+    "repeats": 100,
+    "platform": "Windows-10-10.0.26200-SP0",
+    "inference_workers": 1,
+    "scope": "warm DataFrame selection, preprocessing and predict_proba; no I/O or network"
+  }
+}

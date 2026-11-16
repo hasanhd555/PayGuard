@@ -1,0 +1,57 @@
+[
+  {
+    "input": {
+      "product": "Credit card",
+      "sub_product": "General-purpose credit card or charge card",
+      "issue": "Problem with a purchase shown on your statement",
+      "sub_issue": "Credit card company isn't resolving a dispute about a purchase on your statement",
+      "narrative": "I noticed three transactions totaling $2,400 that I never authorized. Another charge appeared this morning, and the bank has not blocked my card despite my report."
+    },
+    "output": {
+      "category": "FRAUD_AND_SECURITY", "urgency": "high",
+      "summary": "The consumer reports unauthorized card transactions totaling $2,400 and additional activity after notifying the bank.",
+      "requires_human": true,
+      "confidence_note": "The unauthorized activity is alleged, and the current status of the card has not been verified."
+    }
+  },
+  {
+    "input": {
+      "product": "Money transfer, virtual currency, or money service",
+      "sub_product": "Mobile or digital wallet", "issue": "Trouble using the card or wallet",
+      "sub_issue": null,
+      "narrative": "I sent $350 to my brother through my mobile wallet four days ago. The money was deducted from my balance, but he has not received it and the transfer still shows as pending."
+    },
+    "output": {
+      "category": "REFUNDS_AND_TRANSFERS", "urgency": "medium",
+      "summary": "The consumer reports a $350 wallet transfer that was deducted but has not reached the recipient after four days.",
+      "requires_human": false,
+      "confidence_note": "The transfer's processing status and cause of delay are not independently known."
+    }
+  },
+  {
+    "input": {
+      "product": "Checking or savings account", "sub_product": "Checking account",
+      "issue": "Managing an account", "sub_issue": "Problem with fees or charges",
+      "narrative": "My checking account was charged a $7 monthly maintenance fee. I don't remember being told about this fee when I opened the account. I want an explanation and a refund if the charge was applied incorrectly."
+    },
+    "output": {
+      "category": "FEES_AND_BILLING", "urgency": "low",
+      "summary": "The consumer questions a $7 monthly account maintenance fee and requests an explanation and possible refund.",
+      "requires_human": false,
+      "confidence_note": "The account's fee disclosures and whether the charge was valid are not provided."
+    }
+  },
+  {
+    "input": {
+      "product": "Credit reporting or other personal consumer reports", "sub_product": "Credit reporting",
+      "issue": "Incorrect information on your report", "sub_issue": "Information belongs to someone else",
+      "narrative": "My credit report lists a car loan that is not mine. I disputed it twice with the credit bureau, but the record is still there. I want the incorrect loan removed."
+    },
+    "output": {
+      "category": "OTHER_OR_UNCLEAR", "urgency": "medium",
+      "summary": "The consumer reports an unfamiliar car loan on their credit report that remains after two disputes with the credit bureau.",
+      "requires_human": true,
+      "confidence_note": "This is a credit-reporting dispute outside the defined payments routing teams; a human must determine the appropriate destination."
+    }
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "source_run_date": "2026-11-15",
+  "copy_policy": "Unmodified byte-for-byte copies of original live-run artifacts.",
+  "files": {
+    "labeled/labeled_scores.jsonl": {
+      "sha256": "1f902f4a3540d2aab158f6d045c613cf78eb40bf19cccc425d9eb13d4e53869b",
+      "bytes": 3837,
+      "source": "runs/groq-120b-labeled-20261115/labeled_scores.jsonl"
+    },
+    "labeled/predictions.jsonl": {
+      "sha256": "e884cc3a594591680318ad91df3cb7317dace10feff12a9b0e7a4fb0b01f0793",
+      "bytes": 60533,
+      "source": "runs/groq-120b-labeled-20261115/predictions.jsonl"
+    },
+    "labeled/report.json": {
+      "sha256": "bda6fcd0c6a5df0e710b7334de9eb3a0aec25808a5c00cdf1decd5944fca214b",
+      "bytes": 7223,
+      "source": "runs/groq-120b-labeled-20261115/report.json"
+    },
+    "labeled/run_manifest.json": {
+      "sha256": "72dcda159af6b9853d85d99aa24c7352e3eafe42bdbb1f59ae51f2eb0ad1e4c7",
+      "bytes": 926,
+      "source": "runs/groq-120b-labeled-20261115/run_manifest.json"
+    },
+    "safety/predictions.jsonl": {
+      "sha256": "e77199bad9ca41abcb40598b4abcf9fec58f380984f92307718e61ddaa220336",
+      "bytes": 45729,
+      "source": "runs/groq-120b-safety-20261115/predictions.jsonl"
+    },
+    "safety/report.json": {
+      "sha256": "dba23cf556e26f397d61ed5a55848c8e8e4a38aedd0ffca2f031ba52c0e7d941",
+      "bytes": 7764,
+      "source": "runs/groq-120b-safety-20261115/report.json"
+    },
+    "safety/run_manifest.json": {
+      "sha256": "72d6342230bde9a5e359ff2bf4562e0026e481fd85a93145cb57c363d4302fc6",
+      "bytes": 1057,
+      "source": "runs/groq-120b-safety-20261115/run_manifest.json"
+    },
+    "safety/safety_scores.jsonl": {
+      "sha256": "5b30e71422f4f46e2aaee8b97badb55a4f5aaffde2cf715dcc377eb6db7abf29",
+      "bytes": 4004,
+      "source": "runs/groq-120b-safety-20261115/safety_scores.jsonl"
+    }
+  }
+}
